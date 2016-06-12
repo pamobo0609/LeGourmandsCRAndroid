@@ -1,4 +1,4 @@
-package legourmandscr.com.legourmands;
+package com.legourmandscr;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

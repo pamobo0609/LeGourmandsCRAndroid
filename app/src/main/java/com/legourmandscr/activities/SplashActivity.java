@@ -1,9 +1,10 @@
-package legourmandscr.com.legourmands;
+package com.legourmandscr.activities;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class SplashActivity extends AppCompatActivity {
+import com.legourmandscr.legourmands.R;
+
+public class SplashActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
