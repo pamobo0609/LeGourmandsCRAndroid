@@ -1,9 +1,9 @@
-package com.legourmandscr.activities;
+package com.lesgourmandscr.profile.activities;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import com.lesgourmandscr.activities.BaseActivity;
 
-public abstract class BaseActivity extends AppCompatActivity {
+public class RegisterActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

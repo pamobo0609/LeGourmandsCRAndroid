@@ -1,8 +1,8 @@
-package com.legourmandscr.activities;
+package com.lesgourmandscr.activities;
 
 import android.os.Bundle;
 
-import com.legourmandscr.legourmands.R;
+import com.lesgourmandscr.R;
 
 public class SplashActivity extends BaseActivity {
 

@@ -1,6 +1,6 @@
-package com.legourmandscr.data;
+package com.lesgourmandscr.restaurant.data;
 
-import com.legourmandscr.enums.RestaurantType;
+import com.lesgourmandscr.restaurant.enums.RestaurantType;
 
 import java.util.ArrayList;
 

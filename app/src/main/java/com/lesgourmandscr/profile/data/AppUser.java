@@ -1,6 +1,7 @@
-package com.legourmandscr.data;
+package com.lesgourmandscr.profile.data;
 
-import com.legourmandscr.enums.RegisterType;
+import com.lesgourmandscr.restaurant.data.Restaurant;
+import com.lesgourmandscr.profile.enums.RegisterType;
 
 import java.util.ArrayList;
 
@@ -12,15 +13,36 @@ public class AppUser {
     private String emailOrUsername;
     private RegisterType registerType;
     private ArrayList<Restaurant> favorites;
+    /** Personal info, for app purposes only */
+    private String firstName;
+    private String lastName;
 
     public AppUser() {
 
     }
 
-    public AppUser(String emailOrUsername, RegisterType registerType, ArrayList<Restaurant> favorites) {
+    public AppUser(String emailOrUsername, RegisterType registerType, ArrayList<Restaurant> favorites, String firstName, String lastName) {
         this.emailOrUsername = emailOrUsername;
         this.registerType = registerType;
         this.favorites = favorites;
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public String getEmailOrUsername() {

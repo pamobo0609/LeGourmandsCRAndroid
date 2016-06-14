@@ -1,4 +1,4 @@
-package com.legourmandscr;
+package com.lesgourmandscr;
 
 import org.junit.Test;
 
